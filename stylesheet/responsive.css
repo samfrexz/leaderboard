@@ -28,6 +28,10 @@
     width: 96%;
   }
 
+  .cards {
+    gap: 0.5rem;
+  }
+
   nav {
     display: flex;
     justify-content: center;
@@ -43,7 +47,6 @@
     min-height: 20vh;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* padding: 0.7rem 0.6rem 0.7rem 0.6rem; */
   }
 
   .para-first p:first-of-type {
@@ -69,5 +72,11 @@
     min-width: 100%;
     flex-wrap: wrap;
     min-height: 28vh;
+    flex-direction: column;
+  }
+
+  .card-txt {
+    padding: 6rem 0.8rem 0 0.3rem;
+    font-size: 1.3rem;
   }
 }
