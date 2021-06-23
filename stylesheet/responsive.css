@@ -1,4 +1,10 @@
 @media (max-width: 700px) {
+  .slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
   .trans {
     width: 20%;
     transform: skewX(-45deg);
@@ -17,7 +23,8 @@
     text-align: center;
   }
 
-  main {
+  main,
+  .cards {
     width: 96%;
   }
 
@@ -56,5 +63,11 @@
 
   .para-hide {
     display: flex;
+  }
+
+  .card {
+    min-width: 100%;
+    flex-wrap: wrap;
+    min-height: 28vh;
   }
 }
