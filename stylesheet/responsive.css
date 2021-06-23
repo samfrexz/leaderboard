@@ -8,7 +8,7 @@
   }
 
   .head {
-    width: 70%;
+    width: 80%;
   }
 
   .head h1 {
@@ -28,7 +28,7 @@
   }
 
   .btn {
-    padding: 0.5rem 0.6rem;
+    padding: 0.8rem 0.6rem;
     font-size: 1rem;
   }
 
@@ -49,8 +49,9 @@
 
   .para {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
+    padding-left: 2.5rem;
   }
 
   .para-hide {
