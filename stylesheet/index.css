@@ -1,0 +1,129 @@
+@import url(./utilities.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --main: #004374;
+}
+
+header {
+  background: var(--main);
+  height: 14vh;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.trans {
+  background-image: linear-gradient(90deg, #004374, #004374, #014b82 60%);
+  width: 40%;
+  height: 14vh;
+  transform: skewX(-49deg);
+}
+
+.head h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.head {
+  width: 50%;
+  /* transform: none; */
+}
+
+nav,
+.cards,
+.descending,
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+/* ****************************************************************** */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.3rem;
+}
+
+.card {
+  display: flex;
+  background-image: linear-gradient(90deg, #004374, #004374, #014b82);
+  color: #ffff;
+  min-width: 32%;
+  height: 25vh;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.trans-card {
+  background-image: linear-gradient(90deg, #004374, #004374, #014b82 60%);
+  min-width: 27%;
+  height: 25vh;
+  margin: 0 auto;
+  transform: skewX(-45deg);
+}
+
+.card-text {
+  padding: 0.6rem 0 0 0.9rem;
+  line-height: 0.4in;
+}
+
+.card-text p {
+  font-size: 1.3rem;
+}
+
+.card-txt {
+  padding: 9rem 1rem 0 0.3rem;
+  font-size: 2rem;
+}
+
+/* *********************************************************************************** */
+
+.main-text {
+  display: flex;
+  min-height: 7vh;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0 2rem;
+  margin: 1rem 0;
+}
+
+.main-active {
+  background: var(--main);
+  color: #fff;
+}
+
+.main-text .para {
+  display: flex;
+  width: 27%;
+  justify-content: space-between;
+}
+
+.main-text p {
+  font-size: 1.3rem;
+}
+
+/* .main-text:active {
+  background: var(--main);
+  color: #fff;
+} */

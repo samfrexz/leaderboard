@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  .trans {
+    width: 20%;
+    transform: skewX(-45deg);
+  }
+  .container {
+    width: 100%;
+  }
+
+  .head {
+    width: 70%;
+    text-align: center;
+  }
+
+  .main-text,
+  .main-text .para {
+    flex-direction: column;
+  }
+}
