@@ -18,6 +18,8 @@ header {
   height: 14vh;
   color: #fff;
   position: sticky;
+  left: 0;
+  right: 0;
   top: 0;
   z-index: 100;
 }
@@ -87,7 +89,6 @@ select {
 
 .trans-card {
   background-image: linear-gradient(90deg, #004374, #004374, #014b82 60%);
-  /* background: #014b82; */
   min-width: 27%;
   border-right: 10px solid var(--main);
   height: 25vh;
@@ -98,20 +99,20 @@ select {
 .card-text {
   padding: 0.6rem 0 0 0.9rem;
   line-height: 0.4in;
-  z-index: 100;
+  /* z-index: 10; */
   position: relative;
 }
 
 .card-text p {
   font-size: 1.3rem;
-  z-index: 100;
+  /* z-index: 10; */
   position: relative;
 }
 
 .card-txt {
   padding: 8rem 1rem 0 0.3rem;
   font-size: 1.7rem;
-  z-index: 100;
+  /* z-index: 100; */
   position: relative;
 }
 
