@@ -44,7 +44,8 @@ header {
 
 .head {
   width: 50%;
-  /* transform: none; */
+  position: relative;
+  z-index: 100;
 }
 
 nav,
@@ -66,7 +67,7 @@ main {
   display: flex;
   background-image: linear-gradient(90deg, #004374, #004374, #014b82);
   color: #ffff;
-  min-width: 32%;
+  width: 32%;
   height: 25vh;
   border-radius: 5px;
   overflow: hidden;
@@ -90,7 +91,7 @@ main {
 }
 
 .card-txt {
-  padding: 9rem 1rem 0 0.3rem;
+  padding: 8rem 1rem 0 0.3rem;
   font-size: 2rem;
 }
 
@@ -100,6 +101,7 @@ main {
   display: flex;
   min-height: 7vh;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -113,10 +115,16 @@ main {
   color: #fff;
 }
 
-.main-text .para {
+.main-text .para-first {
   display: flex;
-  width: 27%;
-  justify-content: space-between;
+}
+
+.para-first p:first-of-type {
+  padding-right: 7rem;
+}
+
+.para-hide {
+  display: none;
 }
 
 .main-text p {

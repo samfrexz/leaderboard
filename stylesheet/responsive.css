@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .trans {
     width: 20%;
     transform: skewX(-45deg);
@@ -9,11 +9,51 @@
 
   .head {
     width: 70%;
+  }
+
+  .head h1 {
+    font-size: 2rem;
+    font-weight: 700;
     text-align: center;
   }
 
-  .main-text,
-  .main-text .para {
-    flex-direction: column;
+  main {
+    width: 96%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+  }
+
+  .btn {
+    padding: 0.5rem 0.6rem;
+    font-size: 1rem;
+  }
+
+  .main-text {
+    min-height: 20vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 0.7rem 0.6rem 0.7rem 0.6rem; */
+  }
+
+  .para-first p:first-of-type {
+    padding-right: 1rem;
+  }
+
+  .main-text .para-first {
+    width: 100%;
+  }
+
+  .para {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .para-hide {
+    display: flex;
   }
 }
